@@ -42,27 +42,27 @@
 
 ### 初始`Vue`
 
-![image-20220805211725339](.\vue.js.assets\image-20220805211725339.png)
+![image-20220805211725339](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220805211725339.png)
 
 ### 模板语法
 
 #### 效果
 
-![image-20220805213034416](.\vue.js.assets\image-20220805213034416.png)
+![image-20220805213034416](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220805213034416.png)
 
 #### 模板理解
 
 + 插值语法：
-  + 功能：用于解析标签体内容 ![image-20220805213435652](.\vue.js.assets\image-20220805213435652.png)
+  + 功能：用于解析标签体内容 ![image-20220805213435652](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220805213435652.png)
   + 写法：{{xxx}},xxx是`js`表达式，且可以直接读取到`data`中的所有属性。
 +  指令语法：
   + 功能：用于解析标签（包括 标签属性、标签体内容、绑定事件....）
-  + 举例：`v-bind:` 可简写为 `:`![image-20220805214107899](.\vue.js.assets\image-20220805214107899.png)
+  + 举例：`v-bind:` 可简写为 `:`![image-20220805214107899](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220805214107899.png)
   + 备注：`Vue`中有很多的指令，且形式都是：`V-xxx`,为此我们只是拿 `v-bind`举例。
 
 ### 数据绑定
 
-1. 效果：![image-20220807160735332](.\vue.js.assets\image-20220807160735332.png)
+1. 效果：![image-20220807160735332](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220807160735332.png)
 2. 单向绑定（`v-bind`）：数据只能从`data`流向页面
 3. 双向绑定（`v-model`)：数据不仅能从`data`流向页面，还可以从页面流向`data`。
 
@@ -70,7 +70,7 @@
 
 + 双向绑定一般都应用在表单类元素上（如:`input`、`select`等）
 + 2.`v-model:value`可以简写为`v-model`，因为`v-model`默认收集的就是`value`值
-+ ![image-20220807162130572](.\vue.js.assets\image-20220807162130572.png)
++ ![image-20220807162130572](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220807162130572.png)
 
 ### `el`与`data`的两种写法
 
@@ -239,7 +239,7 @@ Object.defineProperty(obj2, 'x', {
 
 
 
-![image-20220810145801462](.\vue.js.assets\image-20220810145801462.png)
+![image-20220810145801462](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220810145801462.png)
 
 ### 事件处理
 
@@ -1468,7 +1468,7 @@ Vue监视数据的原理：
 
 效果：
 
-![img](.\vue.js.assets\ae26b7438a92ea522859afff5ad96cba.png)
+![img](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsae26b7438a92ea522859afff5ad96cba.png)
 
 ###### 总结：
 
@@ -1519,7 +1519,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220912214903906](.\vue.js.assets\image-20220912214903906.png)
+![image-20220912214903906](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220912214903906.png)
 
 总结：
 
@@ -1571,7 +1571,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220912215831948](.\vue.js.assets\image-20220912215831948.png)
+![image-20220912215831948](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220912215831948.png)
 
 总结：
 
@@ -1622,7 +1622,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220912220412924](.\vue.js.assets\image-20220912220412924.png)
+![image-20220912220412924](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220912220412924.png)
 
 总结：
 
@@ -1665,7 +1665,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220912220728147](.\vue.js.assets\image-20220912220728147.png)
+![image-20220912220728147](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220912220728147.png)
 
 总结：
 
@@ -1709,7 +1709,7 @@ Vue监视数据的原理：
 效果：
 
 
-![image-20220912221049833](.\vue.js.assets\image-20220912221049833.png)
+![image-20220912221049833](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220912221049833.png)
 
 总结：
 
@@ -1779,7 +1779,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220912221228497](.\vue.js.assets\image-20220912221228497.png)
+![image-20220912221228497](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220912221228497.png)
 
 总结：
 
@@ -1855,7 +1855,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220913090548945](.\vue.js.assets\image-20220913090548945.png)
+![image-20220913090548945](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913090548945.png)
 
 总结：
 
@@ -1868,7 +1868,7 @@ Vue监视数据的原理：
 
 #### 分析生命周期
 
-![image-20220913091002851](.\vue.js.assets\image-20220913091002851.png)
+![image-20220913091002851](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913091002851.png)
 
 ```html
 <!DOCTYPE html>
@@ -1995,7 +1995,7 @@ Vue监视数据的原理：
 
 ```
 
-![image-20220913091117319](.\vue.js.assets\image-20220913091117319.png)
+![image-20220913091117319](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913091117319.png)
 
 总结：
 
@@ -2113,7 +2113,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220913093447192](.\vue.js.assets\image-20220913093447192.png)
+![image-20220913093447192](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913093447192.png)
 
 总结：
 
@@ -2191,7 +2191,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220913094453690](.\vue.js.assets\image-20220913094453690.png)
+![image-20220913094453690](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913094453690.png)
 
 总结：
 
@@ -2312,7 +2312,7 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220913095400448](.\vue.js.assets\image-20220913095400448.png)
+![image-20220913095400448](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913095400448.png)
 
 #### VueComponent
 
@@ -2391,11 +2391,11 @@ Vue监视数据的原理：
 
 效果：
 
-![image-20220913095655367](.\vue.js.assets\image-20220913095655367.png)
+![image-20220913095655367](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913095655367.png)
 
 总结：
 
-![image-20220913095706414](.\vue.js.assets\image-20220913095706414.png)
+![image-20220913095706414](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220913095706414.png)
 
 1. 一个重要的内置关系：`VueComponent.prototype.__proto__ === Vue.prototype`
 2. 为什么要有这个关系：让组件实例对象（vc）可以访问到 Vue 原型上的属性、方法
@@ -2682,7 +2682,7 @@ new Vue({
 
 
 
-![image-20220914172209136](.\vue.js.assets\image-20220914172209136.png)
+![image-20220914172209136](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220914172209136.png)
 
 #### render函数
 
@@ -2754,7 +2754,7 @@ new Vue({
 
 效果：
 
-![image-20220914173614608](.\vue.js.assets\image-20220914173614608.png)
+![image-20220914173614608](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220914173614608.png)
 
 总结：
 `ref`属性：
@@ -2968,7 +2968,7 @@ export const mixin = {
 
 效果：
 
-![image-20220915090239263](.\vue.js.assets\image-20220915090239263.png)
+![image-20220915090239263](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220915090239263.png)
 
 全局混入：
 
@@ -2990,7 +2990,7 @@ new Vue({
 
 效果：
 
-![image-20220915090410185](.\vue.js.assets\image-20220915090410185.png)
+![image-20220915090410185](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220915090410185.png)
 
 ------
 
@@ -3163,7 +3163,7 @@ src/components/School.vue:
 
 效果：
 
-![image-20220915092651518](.\vue.js.assets\image-20220915092651518.png)
+![image-20220915092651518](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220915092651518.png)
 
 总结：
 
@@ -3281,7 +3281,7 @@ src/components/School.vue:
 
 效果：
 
-![image-20220915093649000](.\vue.js.assets\image-20220915093649000.png)
+![image-20220915093649000](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsimage-20220915093649000.png)
 
 总结：
 
@@ -3706,7 +3706,7 @@ export default {
 
 效果：
 
-![Todo](.\vue.js.assets\Todo-16640338644411.gif)
+![Todo](https://github.com/jmoreya/VueNote/blob/master/vue.js.assetsTodo-16640338644411.gif)
 
 ###   WebStorage本地存储 
 
